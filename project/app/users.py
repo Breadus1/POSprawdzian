@@ -4,6 +4,8 @@
 
 from flask import Blueprint, request, jsonify, abort
 from .models import users, User
+import json
+
 
 users_blueprint = Blueprint('users', __name__)
 
